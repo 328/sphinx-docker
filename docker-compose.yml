@@ -1,0 +1,5 @@
+sphinx:
+  build: ./
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+    - /Users/asatoyuuya/sphinx/documents:/documents
